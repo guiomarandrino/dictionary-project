@@ -1,5 +1,41 @@
 form {
-  padding: 0px 5px 15px 5px;
   text-align: center;
+}
+
+.Dictionary section {
+  background: #fffbe9;
+  padding: 30px;
   border-radius: 10px;
+  box-shadow: 0px 5px 10px rgb(0 0 0 / 10%);
+  margin: 20px 0;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 8px 4px;
+  border: 1px solid #fffbe9;
+  border-radius: 7px;
+}
+
+.Synonyms {
+  margin: 20px 0;
+}
+.Synonyms li {
+  display: inline-block;
+  padding-right: 15px;
+  text-decoration: underline;
+}
+
+.Results h2 {
+  font-size: 40px;
+}
+
+.Meaning h3 {
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.Meaning .example {
+  opacity: 0.7;
+  font-style: italic;
 }
