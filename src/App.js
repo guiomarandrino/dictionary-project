@@ -13,6 +13,23 @@ function App() {
           </em>
         </h3>
         <Dictionary />
+        <footer>
+          <a
+            href="https://github.com/guiomarandrino/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>{" "}
+          by{" "}
+          <a
+            href="https://jovial-mcclintock-4de24d.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Guiomar Andrino
+          </a>
+        </footer>
       </div>
     </div>
   );
